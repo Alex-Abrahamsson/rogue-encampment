@@ -1,0 +1,23 @@
+@import './styles/variables.scss';
+
+.AppContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-light-grey;
+}
+
+.ContentContainer {
+    width: $max-container-width;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: $max-container-width) {
+	.ContentContainer {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+}
