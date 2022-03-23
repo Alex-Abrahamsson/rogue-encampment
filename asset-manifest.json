@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rogue-encampment/static/css/main.92b9ac0d.css",
+    "main.js": "/rogue-encampment/static/js/main.ef392c79.js",
+    "index.html": "/rogue-encampment/index.html",
+    "main.92b9ac0d.css.map": "/rogue-encampment/static/css/main.92b9ac0d.css.map",
+    "main.ef392c79.js.map": "/rogue-encampment/static/js/main.ef392c79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92b9ac0d.css",
+    "static/js/main.ef392c79.js"
+  ]
+}
