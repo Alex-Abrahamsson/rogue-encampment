@@ -2,24 +2,21 @@
 
 .ContentContainer {
     width: $max-container-width;
+    display: flex;
+    justify-content: center;
+    color: black;
+    color: grey;
 }
-
 .HeaderContainer {
-    width: 100%;
+    width: $max-container-width;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to bottom left, #d4b17a, #d87f37);
+    background-image: linear-gradient(to top, $color-gradient-dark, $color-gradient-light);
 }
 
-.Logo {
-    height: 36px;
-    pointer-events: none;
-    display:block;
-    margin-right: 50%;
-    margin-left: auto;
-}
+
 
 @media screen and (max-width: $max-container-width) {
 	.ContentContainer {
