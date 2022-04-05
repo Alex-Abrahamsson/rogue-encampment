@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+
+.Container {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  flex-direction:column;
+  border: 5px solid lightgray;
+  background-color: black;
+  color: gray;
+  font-size: 12px;
+  text-align: center;
+}
+.ClassnameLabel{
+    display: flex;
+    justify-content:center;
+    border: 1px solid lightgray;
+}
